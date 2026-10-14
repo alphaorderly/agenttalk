@@ -1,0 +1,21 @@
+{
+    "title": "타입이 적용된 Vite React 템플릿",
+    "subtitle": "현대적인 리액트 프로젝트의 시작점",
+    "libraries": "포함된 라이브러리",
+    "tools": "개의 도구",
+    "customize": "원하는 라이브러리를 추가하여 이 템플릿을 커스터마이징하세요",
+    "search": "라이브러리 검색...",
+    "searchStarWars": "스타워즈 캐릭터 검색...",
+    "loading": "로딩 중",
+    "noResults": "검색 결과가 없습니다",
+    "birthYear": "출생년도",
+    "backToHome": "홈으로 돌아가기",
+    "characterNotFound": "캐릭터를 찾을 수 없습니다",
+    "gender": "성별",
+    "height": "키",
+    "mass": "체중",
+    "hairColor": "머리 색상",
+    "eyeColor": "눈 색상",
+    "enterMessage": "메시지를 입력하세요",
+    "submit": "전송"
+}

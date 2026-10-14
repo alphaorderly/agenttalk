@@ -1,0 +1,66 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css')
+layer(base);
+
+@import 'tailwindcss';
+
+@theme {
+    --color-kakao: #fee500;
+    --color-kakao-brown: #3c1e1e;
+    --color-chat: #b2c7da;
+    --color-chat-ink: #4e6274;
+    --color-nav: #ececed;
+}
+
+@layer base {
+    html {
+        font-family:
+            Pretendard,
+            -apple-system,
+            BlinkMacSystemFont,
+            'Apple SD Gothic Neo',
+            'Malgun Gothic',
+            sans-serif,
+            'Apple Color Emoji',
+            'Segoe UI Emoji',
+            'Noto Color Emoji';
+        color: #191919;
+    }
+    button:not(:disabled) {
+        cursor: pointer;
+    }
+    dialog::backdrop {
+        background: rgb(0 0 0 / 0.35);
+    }
+}
+
+@layer components {
+    .field {
+        @apply focus:ring-kakao/40 w-full rounded-lg border border-neutral-300 bg-white px-2.5 py-2 text-sm outline-none focus:border-yellow-500 focus:ring-3;
+    }
+    .label {
+        @apply flex flex-col gap-1.5 text-[13px] font-semibold text-neutral-700;
+    }
+    .btn-primary {
+        @apply bg-kakao text-kakao-brown rounded-lg px-4 py-2 text-sm font-bold hover:brightness-95 disabled:opacity-50;
+    }
+    .btn-ghost {
+        @apply rounded-lg border border-neutral-300 bg-white px-3.5 py-2 text-sm hover:bg-neutral-50 disabled:opacity-50;
+    }
+    .btn-danger {
+        @apply rounded-lg px-3 py-2 text-sm text-red-500 hover:bg-red-50;
+    }
+    .icon-btn {
+        @apply inline-grid size-9 place-items-center rounded-lg text-neutral-700 hover:bg-black/5;
+    }
+}
+
+@keyframes blink {
+    0%,
+    80%,
+    100% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 1;
+    }
+}

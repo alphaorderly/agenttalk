@@ -1,0 +1,20 @@
+{
+    "title": "Typed Vite React Template",
+    "subtitle": "A modern starting point for your React projects",
+    "libraries": "Included Libraries",
+    "tools": "tools",
+    "customize": "Customize this template by adding your preferred libraries",
+    "searchStarWars": "Search Star Wars characters...",
+    "loading": "Loading",
+    "noResults": "No results found",
+    "birthYear": "Birth Year",
+    "backToHome": "Back to Home",
+    "characterNotFound": "Character not found",
+    "gender": "Gender",
+    "height": "Height",
+    "mass": "Mass",
+    "hairColor": "Hair Color",
+    "eyeColor": "Eye Color",
+    "enterMessage": "Enter your message",
+    "submit": "Submit"
+}
